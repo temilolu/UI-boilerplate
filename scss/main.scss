@@ -1,19 +1,27 @@
-/*
-*-------------------------------------------------------------------------------
-* By Temitayo Ogunlolu
-* main.scss
-*-------------------------------------------------------------------------------
-*/
+// Author: Temitayo Ogunlolu
+// Project: Sass Boilierplate
 
-/* Modules */
-@import "modules/all";
-@import "modules/colors";
-@import "modules/utility";
 
-/* Partials */
-@import "partials/typography";
-@import "partials/base";
-@import "partials/buttons";
-@import "partials/figures";
-@import "partials/grids";
-@import "partials/reset";
+// Core & Helpers
+@import 'core/reset';
+@import 'core/variables';
+@import 'core/mixins';
+@import 'core/layout';
+@import 'core/fonts';
+
+// Utilities
+@import 'utilities/utils';
+@import 'utilities/text';
+
+// Components
+@import 'components/icons';
+@import 'components/header';
+@import 'components/buttons';
+@import 'components/footer';
+
+// Animations/Demos
+ // Add animation imports here.
+
+// Modules
+@import 'modules/landing';
+ // Add other modules here. E.g Princing, About and other relevant custom page modules..
