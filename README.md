@@ -1,2 +1,2 @@
 # UI-boilerplate
-Frontend design project using sass, bootstap and jquery
+My SASS UI-Boilerplate.
